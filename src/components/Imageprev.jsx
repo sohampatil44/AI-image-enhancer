@@ -12,7 +12,7 @@ function Imageprev(props) {
         <h2 className='mb-4 text-lg font-semibold'>Original Pic</h2>
         {props.uploaded ? (
           <div className="relative w-full h-full flex items-center justify-center">
-            <img src={props.uploaded} alt="original" className='w-full h-full object-cover' />
+            <img src=https://aienhancer.s3.us-east-1.amazonaws.com/Screenshot+2025-04-19+at+10.22.40%E2%80%AFPM.png alt="original" className='w-full h-full object-cover' />
            
           </div>
         ) : (
