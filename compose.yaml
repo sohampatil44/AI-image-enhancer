@@ -1,0 +1,13 @@
+
+services:
+  frontend:
+    
+    container_name: ai-container
+
+  
+    build:
+      context: .
+    
+    ports:
+      - "3000:80"
+
